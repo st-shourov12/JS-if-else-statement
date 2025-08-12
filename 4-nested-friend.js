@@ -10,3 +10,27 @@ if you get less than 80 go to home and sleep and act sad
 Note: 
 use nested if-else-if-else
 */
+
+let myMark   = 89 ;
+let friend = 60;
+
+if (myMark > 80) {
+    if (friend > 80) {
+        decision ="Lets go for a lunch "
+    } 
+    else if (friend > 60 && friend <= 80) {
+        decision ="Good Luck Next time"
+    }
+    else if (friend > 40 && friend <= 60) {
+        decision ="Try to improve yourself"
+    }
+    else {
+        decision ="Just get lost"
+    }
+
+
+} else {
+    decision = "go to sleep"
+}
+
+console.log(decision);
